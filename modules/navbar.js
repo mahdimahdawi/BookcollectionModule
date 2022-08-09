@@ -1,4 +1,6 @@
-import { navBar, listPage, AddPage, contactPage } from './ui.js';
+import {
+   navBar, listPage, AddPage, contactPage
+   } from './ui.js';
 
 navBar.forEach((item) => {
   item.addEventListener('click', () => {
@@ -19,4 +21,4 @@ navBar.forEach((item) => {
   });
 });
 
-export { navBar };
+export default { navBar };

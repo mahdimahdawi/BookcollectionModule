@@ -1,6 +1,6 @@
-import { 
-  bookList, addButton, BookTitle, BookAuthor 
-  } from './ui.js';
+import {
+  bookList, addButton, BookTitle, BookAuthor,
+} from './ui.js';
 
 export let localBooks = [];
 export const books = [];
