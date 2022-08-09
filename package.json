@@ -1,0 +1,29 @@
+{
+  "name": "es6-book-collection",
+  "version": "1.0.0",
+  "description": "- A book collection site, with functionality of storing, retrieving and deleting data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahdimahdawi/ES6-book-collection.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahdimahdawi/ES6-book-collection/issues"
+  },
+  "homepage": "https://github.com/mahdimahdawi/ES6-book-collection#readme",
+  "dependencies": {
+    "luxon": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}

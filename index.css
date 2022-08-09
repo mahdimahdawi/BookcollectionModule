@@ -1,0 +1,152 @@
+html,
+body,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 88%;
+  border: 1px solid black;
+  margin: 20px 20px 20px 60px;
+  padding: 0 30px;
+}
+
+.brand {
+  font-family: sans-serif;
+  font-size: 15px;
+  letter-spacing: 10px;
+}
+
+.date-time {
+  float: right;
+  margin-right: 65px;
+  margin-top: -5px;
+  font-family: sans-serif;
+}
+
+.item-link {
+  margin-left: 20px;
+  font-size: 15px;
+  border-right: 2px solid black;
+  padding-right: 10px;
+}
+
+.book-list-page {
+  display: none;
+}
+
+.add-book {
+  display: none;
+}
+
+.add-book.active {
+  display: block;
+}
+
+.book-list-page.active {
+  display: block;
+}
+
+.contact.active {
+  display: none;
+}
+
+.contact {
+  display: block;
+}
+
+.contact-link {
+  display: block;
+}
+
+.book-section {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.book-list {
+  border: 1px solid black;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.book-div {
+  display: flex;
+  border: none;
+  justify-content: space-between;
+}
+
+.book-div:nth-of-type(odd) {
+  background-color: gray;
+}
+
+.remove-btn {
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 20%;
+  height: 30px;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+input {
+  width: 50%;
+  height: 30px;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.page-title {
+  font-family: sans-serif;
+  letter-spacing: 5px;
+  margin-top: 200px;
+}
+
+.page-title1 {
+  font-family: sans-serif;
+  letter-spacing: 5px;
+  margin-top: 20px;
+}
+
+.add {
+  margin-left: 730px;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.display-none {
+  display: none;
+}
+
+.copyright {
+  position: fixed;
+  bottom: 10px;
+  width: 86%;
+  border: 1px solid black;
+  margin: 30px 70px;
+  padding: 10px 30px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.book-heading {
+  margin-top: 20px;
+  font-family: sans-serif;
+  letter-spacing: 10px;
+}
