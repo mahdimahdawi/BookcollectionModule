@@ -1,5 +1,5 @@
 import {
-navBar, listPage, AddPage, contactPage,
+  navBar, listPage, AddPage, contactPage,
 } from './ui.js';
 
 navBar.forEach((item) => {
@@ -21,4 +21,4 @@ navBar.forEach((item) => {
   });
 });
 
-export default { navBar };
+export { navBar };
