@@ -2,7 +2,6 @@ import {
   bookList, addButton, BookTitle, BookAuthor,
 } from './ui.js';
 
-export let localBooks = [];
 export const books = [];
 
 export const displayBook = (b) => {
@@ -36,6 +35,7 @@ export class BookClass {
 }
 
 export const getBook = () => {
+  let localBooks = [];
   const localData = localStorage.getItem('book');
   localBooks = JSON.parse(localData);
   if (localBooks) {

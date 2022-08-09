@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { displayBook } from './modules/bookClass.js';
 
 import { navBar } from './modules/navbar.js';

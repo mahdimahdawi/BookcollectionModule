@@ -10,5 +10,6 @@ const contactPage = document.querySelector('.contact');
 const navBar = document.querySelectorAll('.item-link');
 
 export {
-  bookList, BookTitle, BookAuthor, addButton, removeBtns, localTime, listPage, AddPage, contactPage, navBar
+  bookList, BookTitle, BookAuthor, addButton,
+  removeBtns, localTime, listPage, AddPage, contactPage, navBar,
 };

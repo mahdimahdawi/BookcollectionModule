@@ -1,6 +1,6 @@
 import {
-   navBar, listPage, AddPage, contactPage
-   } from './ui.js';
+navBar, listPage, AddPage, contactPage,
+} from './ui.js';
 
 navBar.forEach((item) => {
   item.addEventListener('click', () => {
