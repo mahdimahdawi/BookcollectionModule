@@ -1,7 +1,8 @@
 import {
-  navBar, listPage, AddPage, contactPage,
+  listPage, AddPage, contactPage,
 } from './ui.js';
 
+export const navBar = document.querySelectorAll('.item-link');
 navBar.forEach((item) => {
   item.addEventListener('click', () => {
     if (item.id === 'list') {
@@ -20,5 +21,3 @@ navBar.forEach((item) => {
     }
   });
 });
-
-export { navBar };

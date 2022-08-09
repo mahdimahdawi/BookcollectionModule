@@ -7,9 +7,8 @@ const localTime = document.querySelector('.date-time');
 const listPage = document.querySelector('.book-list-page');
 const AddPage = document.querySelector('.add-book');
 const contactPage = document.querySelector('.contact');
-const navBar = document.querySelectorAll('.item-link');
 
 export {
   bookList, BookTitle, BookAuthor, addButton,
-  removeBtns, localTime, listPage, AddPage, contactPage, navBar,
+  removeBtns, localTime, listPage, AddPage, contactPage,
 };
