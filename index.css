@@ -46,7 +46,7 @@ li {
   padding-right: 10px;
 }
 
-.book-list-page {
+.contact {
   display: none;
 }
 
@@ -54,19 +54,7 @@ li {
   display: none;
 }
 
-.add-book.active {
-  display: block;
-}
-
-.book-list-page.active {
-  display: block;
-}
-
-.contact.active {
-  display: none;
-}
-
-.contact {
+.book-list-page {
   display: block;
 }
 
@@ -80,7 +68,7 @@ li {
 }
 
 .book-list {
-  border: 1px solid rgb(5, 5, 5);
+  border: 1px solid black;
   width: 90%;
   height: auto;
   margin: 0 auto;

@@ -20,7 +20,7 @@ export class BookClass {
   AddBook() {
     books.push(this);
     displayBook(this);
-    setTimeout(window.location.reload(), 1000);
+    setTimeout(window.location.reload(), 3000);
     localStorage.setItem('book', JSON.stringify(books));
     this.title.value = '';
     this.author.value = '';
@@ -30,7 +30,7 @@ export class BookClass {
     this.book = k;
     k.splice(index, 1);
     localStorage.setItem('book', JSON.stringify(k));
-    setTimeout(window.location.reload(), 1000);
+    setTimeout(window.location.reload(), 3000);
   }
 }
 

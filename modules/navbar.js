@@ -6,18 +6,17 @@ const navBar = document.querySelectorAll('.item-link');
 navBar.forEach((item) => {
   item.addEventListener('click', () => {
     if (item.id === 'list') {
-      listPage.classList.add('active');
-      contactPage.classList.add('active');
-      AddPage.classList.remove('active');
+      listPage.style.display = 'block';
+      AddPage.style.display = 'none';
       contactPage.style.display = 'none';
     } else if (item.id === 'add') {
-      AddPage.classList.add('active');
-      listPage.classList.remove('active');
+      listPage.style.display = 'none';
+      AddPage.style.display = 'block';
       contactPage.style.display = 'none';
     } else if (item.id === 'contact') {
       contactPage.style.display = 'block';
-      listPage.classList.remove('active');
-      AddPage.classList.remove('active');
+      listPage.style.display = 'none';
+      AddPage.style.display = 'none';
     }
   });
 });
