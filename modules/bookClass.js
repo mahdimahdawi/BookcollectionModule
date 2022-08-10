@@ -1,8 +1,7 @@
-import { 
-  bookList, addButton, BookTitle, BookAuthor 
-  } from './ui.js';
+import {
+  bookList, addButton, BookTitle, BookAuthor,
+} from './ui.js';
 
-export let localBooks = [];
 export const books = [];
 
 export const displayBook = (b) => {
@@ -21,7 +20,7 @@ export class BookClass {
   AddBook() {
     books.push(this);
     displayBook(this);
-    setTimeout(window.location.reload(), 1000);
+    setTimeout(window.location.reload(), 3000);
     localStorage.setItem('book', JSON.stringify(books));
     this.title.value = '';
     this.author.value = '';
@@ -31,11 +30,12 @@ export class BookClass {
     this.book = k;
     k.splice(index, 1);
     localStorage.setItem('book', JSON.stringify(k));
-    setTimeout(window.location.reload(), 1000);
+    setTimeout(window.location.reload(), 3000);
   }
 }
 
 export const getBook = () => {
+  let localBooks = [];
   const localData = localStorage.getItem('book');
   localBooks = JSON.parse(localData);
   if (localBooks) {

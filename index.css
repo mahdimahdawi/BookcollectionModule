@@ -21,7 +21,7 @@ li {
   display: flex;
   justify-content: space-between;
   width: 88%;
-  border: 1px solid black;
+  border: 1px solid rgb(12, 12, 12);
   margin: 20px 20px 20px 60px;
   padding: 0 30px;
 }
@@ -46,7 +46,7 @@ li {
   padding-right: 10px;
 }
 
-.book-list-page {
+.contact {
   display: none;
 }
 
@@ -54,19 +54,7 @@ li {
   display: none;
 }
 
-.add-book.active {
-  display: block;
-}
-
-.book-list-page.active {
-  display: block;
-}
-
-.contact.active {
-  display: none;
-}
-
-.contact {
+.book-list-page {
   display: block;
 }
 
